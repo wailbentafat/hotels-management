@@ -20,5 +20,6 @@ class room(serializers.ModelSerializer):
 class room(serializers.ModelSerializer):
     class Meta:
         model = Booking
+        
         fields = '__all__'
                                 
